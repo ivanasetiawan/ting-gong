@@ -1,0 +1,19 @@
+@import "vars";
+@import "fancybox";
+@import "polaroid";
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: $sans;
+    color: #333;
+    background: url(fond.jpg) center center no-repeat;
+    text-align: center;
+}
+
+#gallery {
+    height: 100%;
+    background-color: transparent;
+}
